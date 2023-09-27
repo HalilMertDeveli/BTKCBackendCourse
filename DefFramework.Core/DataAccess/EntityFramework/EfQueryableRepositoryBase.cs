@@ -1,8 +1,6 @@
 ﻿using DevFramework.Core.Entities;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -19,6 +17,18 @@ namespace DevFramework.Core.DataAccess.EntityFramework
         {
             _dbContext = dbContext;
         }
-        public IQueryable<T> Table { get; }
+        public IQueryable<T> Table => this._entities;
+
+        protected virtual IDbSet<T> Entities
+        {
+            get
+            {
+                if (_entities == null)
+                {
+                    _entities = _dbContext.Set<T>();
+                }
+                return _entities;
+            }
+        }
     }
 }
