@@ -1,4 +1,5 @@
 ﻿using DevFramework.Core.DataAccess;
+using DevFramework.Pubs.Entities.ComplexTypes;
 using DevFramework.Pubs.Entities.Concrate;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace DevFramework.Pubs.DataAccess.Abstract
 {
     public interface IProductDal:IEntityRepository<Product>
     {
-        
+        List<ProductDetail> GetProductDetail();
 
     }
 }

@@ -16,7 +16,7 @@ namespace DevFramework.Pubs.DataAccess.Concrate.EntityFramework
             Database.SetInitializer<PubsContext>(null);
         }
 
-        public DbSet<Product> DbSet { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         public DbSet<Category> Categories { get; set; }
 
