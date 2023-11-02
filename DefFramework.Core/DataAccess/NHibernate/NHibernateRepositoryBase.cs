@@ -12,6 +12,13 @@ namespace DevFramework.Core.DataAccess.NHibernate
         where TEntity:class,IEntity,new()
     {
         private NHibernateHelper _nHibernateHelper;
+        private NHibernateHelper nHibernateHelper;
+
+        public NHibernateRepositoryBase(NHibernateHelper nHibernateHelper)
+        {
+            this.nHibernateHelper = nHibernateHelper;
+        }
+
         public TEntity Add(TEntity entity)
         {
             using (var session = _nHibernateHelper.OpenSession())
@@ -37,7 +44,7 @@ namespace DevFramework.Core.DataAccess.NHibernate
             }
         }
 
-        public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null)
+        public List<TEntity> GetList(Expression<Func<TEntity, bool>> filter = null)
         {
             using (var session = _nHibernateHelper.OpenSession())
             {

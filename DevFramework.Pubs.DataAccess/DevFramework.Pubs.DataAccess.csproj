@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentNHibernate" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DefFramework.Core\DevFramework.Core.csproj" />
+    <ProjectReference Include="..\DefFramework.Pubs.Entities\DevFramework.Pubs.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

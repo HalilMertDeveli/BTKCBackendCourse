@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HJ7LyaKrsz7qykPVCJ52qBSfWCvLABbaGRqYObFVahiZOA3wQ17GKa6NCiNa0j0a/ccPStDE3jJ6NkQd+mieOg==",
+  "dgSpecHash": "JIJTDvQ4PygV/OrAfukFvoGAPqvcNZRRNM4gIJz187AkYMuts+00AUtseU7O/0r/Z/5Q5dD/7pDcPx0CFyI46g==",
   "success": true,
   "projectFilePath": "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.Pubs.DataAccess\\DevFramework.Pubs.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\halil\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\fluentnhibernate\\3.3.0\\fluentnhibernate.3.3.0.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\iesi.collections\\4.0.4\\iesi.collections.4.0.4.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
