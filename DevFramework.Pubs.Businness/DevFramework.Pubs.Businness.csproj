@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DefFramework.Pubs.Entities\DevFramework.Pubs.Entities.csproj" />
+    <ProjectReference Include="..\DevFramework.Pubs.DataAccess\DevFramework.Pubs.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
