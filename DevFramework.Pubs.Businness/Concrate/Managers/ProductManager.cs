@@ -1,4 +1,6 @@
-﻿using DevFramework.Pubs.Businness.Abstract;
+﻿using DevFramework.Core.CrossCuttingConcers.validation.FluentValidation;
+using DevFramework.Pubs.Businness.Abstract;
+using DevFramework.Pubs.Businness.ValidationRules.FluentValidation;
 using DevFramework.Pubs.DataAccess.Abstract;
 using DevFramework.Pubs.Entities.Concrate;
 using System;
@@ -18,11 +20,15 @@ namespace DevFramework.Pubs.Businness.Concrate.Managers
             _productDal = productDal;
         }
 
+        //[FluentValidate(typeof(ProductValidator))]
         public Product Add(Product product)
         {
+
+            ValidatorTool.FluentValidate(new ProductValidator(), product);//we can use like this but we will chose above
             return _productDal.Add(product);
             
         }
+        //[FluentValidate(typeof(ProductValidator))]
 
         public List<Product> GetAll()
         {
@@ -33,6 +39,11 @@ namespace DevFramework.Pubs.Businness.Concrate.Managers
         public Product GetById(int id)
         {
             return _productDal.Get(p => p.ProductId == id);
+        }
+
+        public Product Update(Product product)
+        {
+            return _productDal.Update(product);
         }
     }
 }

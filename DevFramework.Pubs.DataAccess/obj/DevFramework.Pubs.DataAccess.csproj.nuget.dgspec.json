@@ -48,6 +48,14 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.0, )"
+            },
+            "PostSharp": {
+              "target": "Package",
+              "version": "[4.2.17, )"
+            },
             "nhibernate": {
               "target": "Package",
               "version": "[5.4.6, )"
