@@ -14,5 +14,6 @@ namespace DevFramework.Pubs.Businness.Abstract
         Product GetById(int id);
 
         Product Add(Product product);
+        Product Update(Product product);
     }
 }

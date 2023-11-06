@@ -14,10 +14,10 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)postsharp\2023.0.8\build\PostSharp.props" Condition="Exists('$(NuGetPackageRoot)postsharp\2023.0.8\build\PostSharp.props')" />
     <Import Project="$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgPostSharp Condition=" '$(PkgPostSharp)' == '' ">C:\Users\halil\.nuget\packages\postsharp\4.2.17</PkgPostSharp>
     <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\halil\.nuget\packages\entityframework\6.4.4</PkgEntityFramework>
   </PropertyGroup>
 </Project>

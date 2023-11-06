@@ -1,0 +1,6 @@
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccesss\bin\Debug\DevFramework.Pubs.DataAccesss.dll
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccesss\bin\Debug\DevFramework.Pubs.DataAccesss.pdb
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccesss\obj\Debug\DevFramework.Pubs.DataAccesss.csproj.AssemblyReference.cache
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccesss\obj\Debug\DevFramework.Pubs.DataAccesss.csproj.CoreCompileInputs.cache
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccesss\obj\Debug\DevFramework.Pubs.DataAccesss.dll
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccesss\obj\Debug\DevFramework.Pubs.DataAccesss.pdb

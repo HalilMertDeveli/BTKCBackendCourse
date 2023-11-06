@@ -1,0 +1,17 @@
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\bin\Debug\net6.0\DevFramework.Pubs.Entities.deps.json
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\bin\Debug\net6.0\DevFramework.Pubs.Entities.runtimeconfig.json
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\bin\Debug\net6.0\DevFramework.Pubs.Entities.dll
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\bin\Debug\net6.0\DevFramework.Pubs.Entities.pdb
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\bin\Debug\net6.0\DevFramework.Core.dll
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\bin\Debug\net6.0\DevFramework.Core.pdb
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\DevFramework.Pubs.Entities.csproj.AssemblyReference.cache
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\DevFramework.Pubs.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\DevFramework.Pubs.Entities.AssemblyInfoInputs.cache
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\DevFramework.Pubs.Entities.AssemblyInfo.cs
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\DevFramework.Pubs.Entities.csproj.CoreCompileInputs.cache
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\DevFramework.Pubs.Entities.csproj.CopyComplete
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\DevFramework.Pubs.Entities.dll
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\refint\DevFramework.Pubs.Entities.dll
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\DevFramework.Pubs.Entities.pdb
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\DevFramework.Pubs.Entities.genruntimeconfig.cache
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\net6.0\ref\DevFramework.Pubs.Entities.dll

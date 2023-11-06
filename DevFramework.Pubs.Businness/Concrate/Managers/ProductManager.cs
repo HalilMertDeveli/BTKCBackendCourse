@@ -1,4 +1,5 @@
-﻿using DevFramework.Core.CrossCuttingConcers.validation.FluentValidation;
+﻿using DevFramework.Core.Aspects.Postsharp;
+using DevFramework.Core.CrossCuttingConcers.validation.FluentValidation;
 using DevFramework.Pubs.Businness.Abstract;
 using DevFramework.Pubs.Businness.ValidationRules.FluentValidation;
 using DevFramework.Pubs.DataAccess.Abstract;
@@ -20,15 +21,15 @@ namespace DevFramework.Pubs.Businness.Concrate.Managers
             _productDal = productDal;
         }
 
-        //[FluentValidate(typeof(ProductValidator))]
+        [FluentValidationAspects(typeof(ProductValidator))]
         public Product Add(Product product)
         {
 
-            ValidatorTool.FluentValidate(new ProductValidator(), product);//we can use like this but we will chose above
+            //ValidatorTool.FluentValidate(new ProductValidator(), product);//we can use like this but we will chose above
             return _productDal.Add(product);
             
         }
-        //[FluentValidate(typeof(ProductValidator))]
+        [FluentValidationAspects(typeof(ProductValidator))]
 
         public List<Product> GetAll()
         {

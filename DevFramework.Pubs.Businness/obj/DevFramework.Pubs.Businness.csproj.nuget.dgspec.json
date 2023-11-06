@@ -194,6 +194,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.8.0, )"
+            },
+            "PostSharp": {
+              "target": "Package",
+              "version": "[2023.0.8, )"
             }
           },
           "imports": [

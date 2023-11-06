@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DevFramework.Pubs.WebApi.props" />
+</Project>
