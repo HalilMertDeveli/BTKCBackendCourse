@@ -7,15 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevFramework.Core.Aspects.Postsharp
+namespace DevFramework.Core.Aspects.Postsharp.ValidationAspects
 {
     [Serializable]
-    public class FluentValidationAspects:OnMethodBoundaryAspect
+    public class FluentValidationAspects : OnMethodBoundaryAspect
     {
         Type _validatorType;
         public FluentValidationAspects(Type validatorType)
         {
-            this._validatorType = validatorType; 
+            _validatorType = validatorType;
         }
         public override void OnEntry(MethodExecutionArgs args)
         {
