@@ -1,0 +1,5 @@
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\netcoreapp2.0\DevFramework.Pubs.Entities.csproj.AssemblyReference.cache
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\netcoreapp2.0\DevFramework.Pubs.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\netcoreapp2.0\DevFramework.Pubs.Entities.AssemblyInfoInputs.cache
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\netcoreapp2.0\DevFramework.Pubs.Entities.AssemblyInfo.cs
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Pubs.Entities\obj\Debug\netcoreapp2.0\DevFramework.Pubs.Entities.csproj.CoreCompileInputs.cache

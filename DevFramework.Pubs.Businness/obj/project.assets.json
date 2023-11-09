@@ -252,6 +252,23 @@
           }
         }
       },
+      "Ninject/3.3.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ninject.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ninject.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "PostSharp/2023.0.8": {
         "type": "package",
         "dependencies": {
@@ -1139,7 +1156,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {
             "related": ".xml"
           }
         },
@@ -1156,7 +1173,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {
             "related": ".xml"
           }
         },
@@ -1846,6 +1863,15 @@
           "bin/placeholder/DevFramework.Core.dll": {}
         }
       },
+      "DevFramework.DataAccess.Test/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DevFramework.DataAccess.Test.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevFramework.DataAccess.Test.dll": {}
+        }
+      },
       "DevFramework.Pubs.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2282,6 +2308,21 @@
         "nhibernate-mapping.xsd",
         "nhibernate.5.4.6.nupkg.sha512",
         "nhibernate.nuspec"
+      ]
+    },
+    "Ninject/3.3.6": {
+      "sha512": "93avazUpbRL3IdwvTQF0DKSQB26TeqwMGhZsQNxi/RLSYewhxBkdGDhwWe9DAIRF1+zKDVMv3XkBk8HobKU6wA==",
+      "type": "package",
+      "path": "ninject/3.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Ninject.dll",
+        "lib/net45/Ninject.xml",
+        "lib/netstandard2.0/Ninject.dll",
+        "lib/netstandard2.0/Ninject.xml",
+        "ninject.3.3.6.nupkg.sha512",
+        "ninject.nuspec"
       ]
     },
     "PostSharp/2023.0.8": {
@@ -6246,6 +6287,11 @@
       "path": "../DefFramework.Core/DevFramework.Core.csproj",
       "msbuildProject": "../DefFramework.Core/DevFramework.Core.csproj"
     },
+    "DevFramework.DataAccess.Test/1.0.0": {
+      "type": "project",
+      "path": "../DevFramework.DataAccess.Test/DevFramework.DataAccess.Test.csproj",
+      "msbuildProject": "../DevFramework.DataAccess.Test/DevFramework.DataAccess.Test.csproj"
+    },
     "DevFramework.Pubs.DataAccess/1.0.0": {
       "type": "project",
       "path": "../DevFramework.Pubs.DataAccess/DevFramework.Pubs.DataAccess.csproj",
@@ -6259,9 +6305,11 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DevFramework.DataAccess.Test >= 1.0.0",
       "DevFramework.Pubs.DataAccess >= 1.0.0",
       "DevFramework.Pubs.Entities >= 1.0.0",
       "FluentValidation >= 11.8.0",
+      "Ninject >= 3.3.6",
       "PostSharp >= 2023.0.8"
     ]
   },
@@ -6300,6 +6348,9 @@
             "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DefFramework.Pubs.Entities\\DevFramework.Pubs.Entities.csproj": {
               "projectPath": "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DefFramework.Pubs.Entities\\DevFramework.Pubs.Entities.csproj"
             },
+            "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.DataAccess.Test\\DevFramework.DataAccess.Test.csproj": {
+              "projectPath": "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.DataAccess.Test\\DevFramework.DataAccess.Test.csproj"
+            },
             "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.Pubs.DataAccess\\DevFramework.Pubs.DataAccess.csproj": {
               "projectPath": "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.Pubs.DataAccess\\DevFramework.Pubs.DataAccess.csproj"
             }
@@ -6319,6 +6370,10 @@
           "FluentValidation": {
             "target": "Package",
             "version": "[11.8.0, )"
+          },
+          "Ninject": {
+            "target": "Package",
+            "version": "[3.3.6, )"
           },
           "PostSharp": {
             "target": "Package",

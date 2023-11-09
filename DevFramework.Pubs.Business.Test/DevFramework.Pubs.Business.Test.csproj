@@ -56,21 +56,53 @@
       <HintPath>..\packages\PostSharp.Redist.2023.0.8\lib\net45\PostSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="ProjectManagerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DefFramework.Core\DevFramework.Core.csproj">
+      <Project>{6393214a-fe6e-46c5-b207-00a674726b2c}</Project>
+      <Name>DevFramework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DefFramework.Pubs.Entities\DevFramework.Pubs.Entities.csproj">
+      <Project>{58e05e96-ca36-4552-a2af-25c681b353a2}</Project>
+      <Name>DevFramework.Pubs.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.DataAccess.Test\DevFramework.DataAccess.Test.csproj">
+      <Project>{23659073-199e-4691-9d82-1b416be2fe81}</Project>
+      <Name>DevFramework.DataAccess.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Pubs.Businness\DevFramework.Pubs.Businness.csproj">
+      <Project>{5a981d42-3b3f-4959-a4ca-bdc2e2158721}</Project>
+      <Name>DevFramework.Pubs.Businness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Pubs.DataAccess\DevFramework.Pubs.DataAccess.csproj">
+      <Project>{e6917bdb-5a8c-479d-8196-74b91065fd96}</Project>
+      <Name>DevFramework.Pubs.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Pubs.MvcWebUI\DevFramework.Pubs.MvcWebUI.csproj">
+      <Project>{64d20d90-1ddc-42ef-a40f-c0496eae6bd1}</Project>
+      <Name>DevFramework.Pubs.MvcWebUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Pubs.WebApi\DevFramework.Pubs.WebApi.csproj">
+      <Project>{5edcda8d-a4b8-4e62-8e1c-4c4e1e0c4563}</Project>
+      <Name>DevFramework.Pubs.WebApi</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

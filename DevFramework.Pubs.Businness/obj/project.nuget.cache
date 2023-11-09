@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vHLuy5TTeTDmaJyM6B0SSQwjwJpTy+QuhXn4wMJmdyQ7XK3M2YhOhB0q0QYcU1i6CfFnum5QHraRDEPFgxscpQ==",
+  "dgSpecHash": "fzBhf2aRXeXQ2nu4eFCR4t0AwSD//9QWu8wlBf5hTTaelVrw6Rvrs9XwewwPn9BJ9nrbRDWw5TiomuLtYbYGHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.Pubs.Businness\\DevFramework.Pubs.Businness.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\halil\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\nhibernate\\5.4.6\\nhibernate.5.4.6.nupkg.sha512",
+    "C:\\Users\\halil\\.nuget\\packages\\ninject\\3.3.6\\ninject.3.3.6.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\postsharp\\2023.0.8\\postsharp.2023.0.8.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\postsharp.redist\\2023.0.8\\postsharp.redist.2023.0.8.nupkg.sha512",
     "C:\\Users\\halil\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",

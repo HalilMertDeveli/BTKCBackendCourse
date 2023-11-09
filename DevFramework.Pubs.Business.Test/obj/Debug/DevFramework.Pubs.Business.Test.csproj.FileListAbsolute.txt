@@ -1,15 +1,2 @@
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\bin\Debug\DevFramework.Pubs.Business.Test.dll
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\bin\Debug\DevFramework.Pubs.Business.Test.pdb
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\obj\Debug\DevFramework.Pubs.Business.Test.csproj.AssemblyReference.cache
 C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\obj\Debug\DevFramework.Pubs.Business.Test.csproj.CoreCompileInputs.cache
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\obj\Debug\DevFramework.Pubs.Business.Test.csproj.CopyComplete
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\obj\Debug\DevFramework.Pubs.Business.Test.dll
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.Business.Test\obj\Debug\DevFramework.Pubs.Business.Test.pdb

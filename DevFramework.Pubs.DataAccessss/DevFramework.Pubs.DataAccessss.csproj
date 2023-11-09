@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BD0467D-96BC-4CE1-92F1-A756003425CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevFramework.Pubs.DataAccessss</RootNamespace>
+    <AssemblyName>DevFramework.Pubs.DataAccessss</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\IProductDal.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DefFramework.Core\DevFramework.Core.csproj">
+      <Project>{6393214a-fe6e-46c5-b207-00a674726b2c}</Project>
+      <Name>DevFramework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DefFramework.Pubs.Entities\DevFramework.Pubs.Entities.csproj">
+      <Project>{58e05e96-ca36-4552-a2af-25c681b353a2}</Project>
+      <Name>DevFramework.Pubs.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.DataAccess.Test\DevFramework.DataAccess.Test.csproj">
+      <Project>{23659073-199e-4691-9d82-1b416be2fe81}</Project>
+      <Name>DevFramework.DataAccess.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Pubs.Business.Test\DevFramework.Pubs.Business.Test.csproj">
+      <Project>{f367a9ca-35e4-44c7-98ed-bcff8ff239f2}</Project>
+      <Name>DevFramework.Pubs.Business.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Pubs.Businness\DevFramework.Pubs.Businness.csproj">
+      <Project>{5a981d42-3b3f-4959-a4ca-bdc2e2158721}</Project>
+      <Name>DevFramework.Pubs.Businness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Pubs.DataAccess\DevFramework.Pubs.DataAccess.csproj">
+      <Project>{e6917bdb-5a8c-479d-8196-74b91065fd96}</Project>
+      <Name>DevFramework.Pubs.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Pubs.MvcWebUI\DevFramework.Pubs.MvcWebUI.csproj">
+      <Project>{64d20d90-1ddc-42ef-a40f-c0496eae6bd1}</Project>
+      <Name>DevFramework.Pubs.MvcWebUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevFramework.Pubs.WebApi\DevFramework.Pubs.WebApi.csproj">
+      <Project>{5edcda8d-a4b8-4e62-8e1c-4c4e1e0c4563}</Project>
+      <Name>DevFramework.Pubs.WebApi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,5 +1,6 @@
 ﻿using DevFramework.Core.Aspects.Postsharp;
 using DevFramework.Core.CrossCuttingConcers.validation.FluentValidation;
+using DevFramework.Core.DataAccess;
 using DevFramework.Pubs.Businness.Abstract;
 using DevFramework.Pubs.Businness.ValidationRules.FluentValidation;
 using DevFramework.Pubs.DataAccess.Abstract;
@@ -15,10 +16,12 @@ namespace DevFramework.Pubs.Businness.Concrate.Managers
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;//we are using for communicate other layers
+        
 
         public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
+            
         }
 
         [FluentValidationAspects(typeof(ProductValidator))]

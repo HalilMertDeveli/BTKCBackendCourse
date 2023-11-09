@@ -1,12 +1,12 @@
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\bin\Debug\net6.0\DevFramework.Core.deps.json
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\bin\Debug\net6.0\DevFramework.Core.runtimeconfig.json
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\bin\Debug\net6.0\DevFramework.Core.dll
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\bin\Debug\net6.0\DevFramework.Core.pdb
 C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\obj\Debug\net6.0\DevFramework.Core.csproj.AssemblyReference.cache
 C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\obj\Debug\net6.0\DevFramework.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\obj\Debug\net6.0\DevFramework.Core.AssemblyInfoInputs.cache
 C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\obj\Debug\net6.0\DevFramework.Core.AssemblyInfo.cs
 C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\obj\Debug\net6.0\DevFramework.Core.csproj.CoreCompileInputs.cache
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\bin\Debug\net6.0\DevFramework.Core.deps.json
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\bin\Debug\net6.0\DevFramework.Core.runtimeconfig.json
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\bin\Debug\net6.0\DevFramework.Core.dll
-C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\bin\Debug\net6.0\DevFramework.Core.pdb
 C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\obj\Debug\net6.0\DevFramework.Core.dll
 C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\obj\Debug\net6.0\refint\DevFramework.Core.dll
 C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DefFramework.Core\obj\Debug\net6.0\DevFramework.Core.pdb

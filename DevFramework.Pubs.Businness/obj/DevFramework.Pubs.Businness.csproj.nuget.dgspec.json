@@ -144,6 +144,21 @@
         }
       }
     },
+    "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.DataAccess.Test\\DevFramework.DataAccess.Test.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.DataAccess.Test\\DevFramework.DataAccess.Test.csproj",
+        "projectName": "DevFramework.DataAccess.Test",
+        "projectPath": "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.DataAccess.Test\\DevFramework.DataAccess.Test.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.Pubs.Businness\\DevFramework.Pubs.Businness.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -175,6 +190,9 @@
               "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DefFramework.Pubs.Entities\\DevFramework.Pubs.Entities.csproj": {
                 "projectPath": "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DefFramework.Pubs.Entities\\DevFramework.Pubs.Entities.csproj"
               },
+              "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.DataAccess.Test\\DevFramework.DataAccess.Test.csproj": {
+                "projectPath": "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.DataAccess.Test\\DevFramework.DataAccess.Test.csproj"
+              },
               "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.Pubs.DataAccess\\DevFramework.Pubs.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\halil\\c_files\\c_visual_studio_folder\\DevFramework\\DevFramework.Pubs.DataAccess\\DevFramework.Pubs.DataAccess.csproj"
               }
@@ -194,6 +212,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.8.0, )"
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.6, )"
             },
             "PostSharp": {
               "target": "Package",

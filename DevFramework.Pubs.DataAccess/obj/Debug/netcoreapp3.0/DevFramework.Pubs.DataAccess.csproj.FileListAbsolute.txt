@@ -1,0 +1,5 @@
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccess\obj\Debug\netcoreapp3.0\DevFramework.Pubs.DataAccess.csproj.AssemblyReference.cache
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccess\obj\Debug\netcoreapp3.0\DevFramework.Pubs.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccess\obj\Debug\netcoreapp3.0\DevFramework.Pubs.DataAccess.AssemblyInfoInputs.cache
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccess\obj\Debug\netcoreapp3.0\DevFramework.Pubs.DataAccess.AssemblyInfo.cs
+C:\Users\halil\c_files\c_visual_studio_folder\DevFramework\DevFramework.Pubs.DataAccess\obj\Debug\netcoreapp3.0\DevFramework.Pubs.DataAccess.csproj.CoreCompileInputs.cache

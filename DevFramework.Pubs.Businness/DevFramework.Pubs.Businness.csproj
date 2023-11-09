@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,11 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.8.0" />
+    <PackageReference Include="Ninject" Version="3.3.6" />
     <PackageReference Include="PostSharp" Version="2023.0.8" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DefFramework.Pubs.Entities\DevFramework.Pubs.Entities.csproj" />
+    <ProjectReference Include="..\DevFramework.DataAccess.Test\DevFramework.DataAccess.Test.csproj" />
     <ProjectReference Include="..\DevFramework.Pubs.DataAccess\DevFramework.Pubs.DataAccess.csproj" />
   </ItemGroup>
 
