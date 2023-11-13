@@ -11,8 +11,8 @@ namespace DevFramework.Core.Aspects.Postsharp.TransacationAspects
     [Serializable]
     public  class TransactionScopeAspect:OnMethodBoundaryAspect
     {
-        private TransactionScopeAspect _option;
-        public TransactionScopeAspect(TransactionScopeAspect option)
+        private TransactionScopeOption _option;
+        public TransactionScopeAspect(TransactionScopeOption option)
         {
             _option = option;
         }
@@ -22,7 +22,7 @@ namespace DevFramework.Core.Aspects.Postsharp.TransacationAspects
         }
         public override void OnEntry(MethodExecutionArgs args)
         {
-            args.MethodExecutionTag = new TransactionScope();
+            args.MethodExecutionTag = new TransactionScope(_option);
         }
         public override void OnSuccess(MethodExecutionArgs args)
         {
