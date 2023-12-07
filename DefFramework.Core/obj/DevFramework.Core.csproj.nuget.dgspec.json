@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[11.8.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "PostSharp": {
               "target": "Package",
               "version": "[4.2.17, )"
@@ -59,6 +63,10 @@
             "System.Runtime.Caching": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
             },
             "nhibernate": {
               "target": "Package",
@@ -81,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

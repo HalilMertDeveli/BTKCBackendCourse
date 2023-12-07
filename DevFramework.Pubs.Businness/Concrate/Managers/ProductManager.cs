@@ -1,8 +1,10 @@
 ﻿using DevFramework.Core.Aspects.Postsharp;
 using DevFramework.Core.Aspects.Postsharp.CacheAspects;
+using DevFramework.Core.Aspects.Postsharp.LogAspects;
 using DevFramework.Core.Aspects.Postsharp.TransacationAspects;
 using DevFramework.Core.Aspects.Postsharp.ValidationAspects;
 using DevFramework.Core.CrossCuttingConcers.Caching.Microsoft;
+using DevFramework.Core.CrossCuttingConcers.Logging.Log4Net.Loggers;
 using DevFramework.Core.CrossCuttingConcers.validation.FluentValidation;
 using DevFramework.Core.DataAccess;
 using DevFramework.Pubs.Businness.Abstract;
@@ -31,6 +33,7 @@ namespace DevFramework.Pubs.Businness.Concrate.Managers
         }
 
         [FluentValidationAspects(typeof(ProductValidator))]
+        [CacheRemoveAspects(typeof(MemoryCacheManager))]
         public Product Add(Product product)
         {
 
@@ -40,6 +43,7 @@ namespace DevFramework.Pubs.Businness.Concrate.Managers
         }
 
         [CacheAspect(typeof(MemoryCacheManager),120)]
+        [LogAspect(typeof(DatabaseLogger))]
         public List<Product> GetAll()
         {
             return _productDal.GetList();
